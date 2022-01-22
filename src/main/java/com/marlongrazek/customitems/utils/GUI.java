@@ -167,7 +167,7 @@ public class GUI {
                     recipeItem.addLoreLine("§7Click to set a recipe");
                     recipeItem.onClick(clickType -> {
 
-                        com.marlongrazek.customcrafting.utils.GUI ccgui = new com.marlongrazek.customcrafting.utils.GUI(player);
+                        /*com.marlongrazek.customcrafting.utils.GUI ccgui = new com.marlongrazek.customcrafting.utils.GUI(player);
                         ccgui.open(ccgui.recipeTypes((clickedRecipe, ct) -> {
                             AnvilGUI.Builder builder = new AnvilGUI.Builder();
                             builder.plugin(com.marlongrazek.customcrafting.main.Main.getPlugin());
@@ -198,7 +198,7 @@ public class GUI {
                                 return AnvilGUI.Response.close();
                             });
                             builder.open(p);
-                        }));
+                        }));*/
                     });
                 }
             } else {

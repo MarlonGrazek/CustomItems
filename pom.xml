@@ -78,15 +78,13 @@
         <dependency>
             <groupId>com.github.MarlonGrazek</groupId>
             <artifactId>UI</artifactId>
-            <version>22dffdf812</version>
-            <scope>provided</scope>
+            <version>7e4888ebf8</version>
         </dependency>
         <dependency>
-            <groupId>com.marlongrazek</groupId>
-            <artifactId>CustomCrafting</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/Development/Minecraft/Server/CustomCrafting.jar</systemPath>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.6.1</version>
         </dependency>
+
     </dependencies>
 </project>
