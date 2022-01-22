@@ -98,8 +98,8 @@ public class CustomItem {
     }
 
     private boolean isExistingID(long id) {
-        for (String idString : com.marlongrazek.customcrafting.main.Main.getDataFile("recipes").getConfigurationSection("", false))
-            if (Long.parseLong(idString) == id) return true;
+        //for (String idString : com.marlongrazek.customcrafting.main.Main.getDataFile("recipes").getConfigurationSection("", false))
+            //if (Long.parseLong(idString) == id) return true;
         return false;
     }
 

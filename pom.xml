@@ -7,7 +7,14 @@
     <groupId>com.marlongrazek</groupId>
     <artifactId>CustomItems</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>com.marlongrazek.customitems.CustomItems</name>
+    <packaging>jar</packaging>
+
+    <name>CustomItems</name>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <build>
         <plugins>
@@ -16,8 +23,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>14</source>
+                    <target>14</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -46,11 +53,6 @@
         </resources>
     </build>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>15</java.version>
-    </properties>
-
     <repositories>
         <repository>
             <id>spigotmc-repo</id>
@@ -59,6 +61,10 @@
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
         <repository>
             <id>codemc-snapshots</id>
@@ -82,6 +88,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-math3</artifactId>
             <version>3.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.MarlonGrazek</groupId>
+            <artifactId>DataFile</artifactId>
+            <version>ddb36de8d2</version>
         </dependency>
     </dependencies>
 </project>

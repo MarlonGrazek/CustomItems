@@ -1,6 +1,5 @@
 package com.marlongrazek.customitems.main;
 
-import com.marlongrazek.customcrafting.utils.GUI;
 import com.marlongrazek.customitems.commands.CMDcustomItems;
 import com.marlongrazek.customitems.events.EVNplayerJoin;
 import com.marlongrazek.datafile.DataFile;
@@ -54,8 +53,8 @@ public final class Main extends JavaPlugin {
 
     public void setup(Player player) {
 
-        if(customCrafting != null) history.put(player, com.marlongrazek.customcrafting.main.Main.getHistory(player));
-        else history.put(player, new History(player));
+        //if(customCrafting != null) history.put(player, com.marlongrazek.customcrafting.main.Main.getHistory(player));
+        history.put(player, new History(player));
 
         page.put(player, new HashMap<>());
     }
