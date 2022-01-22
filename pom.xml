@@ -7,7 +7,7 @@
     <groupId>com.marlongrazek</groupId>
     <artifactId>CustomItems</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>com.marlongrazek.customitems</name>
+    <name>com.marlongrazek.customitems.CustomItems</name>
 
     <build>
         <plugins>
