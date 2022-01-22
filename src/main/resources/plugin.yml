@@ -1,0 +1,12 @@
+name: CustomItems
+version: '${project.version}'
+main: com.marlongrazek.customitems.main.Main
+api-version: 1.18
+softdepend:
+  - CustomCrafting
+
+commands:
+     customitems:
+          description: opens the custom items gui
+          aliases:
+            - ci
